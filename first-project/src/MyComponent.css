@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(195, 215, 224);
+}
+.logo {
+    position: relative;
+    height: 80px;
+    width: 100px;
+}
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+.nav-links a:hover {
+    border: 1px solid;
+    padding: 5px;
+    color: skyblue;
+}
+
