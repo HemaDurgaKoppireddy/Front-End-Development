@@ -121,7 +121,7 @@ export default function CompilerGeneral() {
             options={{ minimap: { enabled: false }, automaticLayout: true }}
           />
         </div>
-
+        
         <div id="right-pane">
           <InputField input={input} setInput={setInput} darkMode={theme === "vs-dark"} />
           <CompilerOutput output={output} ref={outputRef} darkMode={theme === "vs-dark"} />
