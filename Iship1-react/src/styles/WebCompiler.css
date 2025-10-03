@@ -1,0 +1,96 @@
+/* Reset + base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #282c34;
+  color: #fff;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* Editors row */
+.editor-row {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  min-height: 35vh; /* editors take ~35% */
+}
+
+/* Editor box */
+.editor-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #3c3c3c;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.editor-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #000;
+  color: #00f2fe;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px solid #00f2fe;
+}
+
+.editor-group textarea {
+  flex: 1;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  resize: none;
+  font-family: monospace;
+}
+
+/* Output Panel */
+.output-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #3c3c3c;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  min-height: 50vh;
+}
+
+.output-panel label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #000;
+  color: #00f2fe;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.output-panel iframe {
+  flex: 1;
+  width: 100%;
+  border: none;
+  background: #fff;
+}

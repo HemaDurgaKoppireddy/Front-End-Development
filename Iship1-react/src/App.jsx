@@ -9,6 +9,7 @@ import HTMLLevels from './pages/HTMLLevels';
 import JSLevels from './pages/JSLevels';
 import CompilerGeneral from './pages/CompilerGeneral'
 import CompilerWeb from './pages/CompilerWeb';
+import WebCompiler from './pages/WebCompiler';
 
 function App() {
 
@@ -22,8 +23,9 @@ function App() {
     // <DSALevels />
     // <CSSLevels />
     // <HTMLLevels />
-    // <CompilerGeneral />
-    <CompilerWeb />
+    <CompilerGeneral />
+    // <CompilerWeb />
+    // <WebCompiler />
   )
 }
 
