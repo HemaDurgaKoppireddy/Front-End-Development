@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Editor from "@monaco-editor/react";
 
 // Utility Components for Icons (assumes Font Awesome is available)
 const HtmlIcon = () => <i className="fa-brands fa-html5"></i>;
@@ -139,6 +140,7 @@ const WebCompiler = () => {
             value={htmlCode}
             onChange={(e) => setHtmlCode(e.target.value)}
             style={styles.textarea}
+            
           ></textarea>
         </div>
 

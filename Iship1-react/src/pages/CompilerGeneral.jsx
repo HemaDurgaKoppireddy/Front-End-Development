@@ -18,7 +18,7 @@ export default function CompilerGeneral() {
   const [code, setCode] = useState(defaultCodeSnippets["c"]);
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
-  const [theme, setTheme] = useState("vs-dark"); // Default dark theme
+  const [theme, setTheme] = useState("vs-dark"); 
 
   const outputRef = useRef(null);
 
