@@ -11,16 +11,24 @@ import Component1 from "./Component1";
 import Component2 from "./Component2";
 import SearchCards from './SearchCards';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import RoutePaths from "./RoutePaths";
+import Home from "./Home";
+import PageNotFound from "./PageNotFound";
+import Profile from "./Profile";
 
-function App() {
+function RoutePaths() {
   return (
     <>
 
-    <RoutePaths />
-    {/* <SearchCards /> */}
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element= {<Home />} />
+          <Route path="/profile" element= {<Profile />} />
+          <Route path="/profile" element= {<PageNotFound />} />
+        </Routes>
+    </BrowserRouter>
+
     </>
   );
 }
 
-export default App;
+export default RoutePaths;
