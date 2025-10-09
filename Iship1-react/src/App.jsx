@@ -23,9 +23,9 @@ function App() {
     // <DSALevels />
     // <CSSLevels />
     // <HTMLLevels />
-    // <CompilerGeneral />
+    <CompilerGeneral />
     // <CompilerWeb />
-    <WebCompiler />
+    // <WebCompiler />
   )
 }
 
