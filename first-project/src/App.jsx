@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
+// import "./App.css";
 // import MyComponent from './MyComponent'
 // import FormComponent from './FormComponent'
 // import Logo from "./assets/logo-img.png";
@@ -13,20 +13,25 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import RoutePaths from "./RoutePaths";
 // import CardsRouting from "./CardsRouting";
-import ImageUploadmethod1 from "./ImageUpload-method1";
-import ImageUploadmethod2 from "./ImageUpload-method2";
+// import ImageUploadmethod1 from "./ImageUpload-method1";
+// import ImageUploadmethod2 from "./ImageUpload-method2";
+import UseContext from "./UseContext";
+import Task from "./Task";
 // import SearchCards from "./SearchCards";
+import FormData from "./FormData"
 
 
 function App() {
   return (
     <>
-
+      {/* <FormData /> */}
       {/* <SearchCards /> */}
       {/* <CardsRouting /> */}
 
       {/* <ImageUploadmethod1 /> */}
-      <ImageUploadmethod2 />
+      {/* <ImageUploadmethod2 /> */}
+      {/* <UseContext /> */}
+      <Task />
 
     </>
   );

@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 // import './index.css'
 import App from './App.jsx'
 // import MyComponent from './MyComponent.jsx'
+import Task from "./Task"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
