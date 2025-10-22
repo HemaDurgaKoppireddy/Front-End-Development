@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "/vite.svg";
 // import "./App.css";
 // import MyComponent from './MyComponent'
 // import FormComponent from './FormComponent'
@@ -10,15 +10,18 @@ import viteLogo from "/vite.svg";
 // import Component1 from "./Component1";
 // import Component2 from "./Component2";
 // import SearchCards from './SearchCards';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import RoutePaths from "./RoutePaths";
 // import CardsRouting from "./CardsRouting";
 // import ImageUploadmethod1 from "./ImageUpload-method1";
 // import ImageUploadmethod2 from "./ImageUpload-method2";
-import UseContext from "./UseContext";
-import Task from "./Task";
+// import UseContext from "./UseContext";
+// import Task from "./Task";
 // import SearchCards from "./SearchCards";
-import FormData from "./FormData"
+// import FormData from "./FormData";
+// import Features from "./Features";
+// import ApexCharts from "./ApexCharts";
+import Dashboard from "./Dashboard";
 
 
 function App() {
@@ -31,7 +34,10 @@ function App() {
       {/* <ImageUploadmethod1 /> */}
       {/* <ImageUploadmethod2 /> */}
       {/* <UseContext /> */}
-      <Task />
+      {/* <Task /> */}
+      {/* <Features /> */}
+      {/* <ApexCharts /> */}
+      <Dashboard />
 
     </>
   );
