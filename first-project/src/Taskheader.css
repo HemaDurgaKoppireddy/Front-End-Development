@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -26,4 +26,49 @@
     border: 1px  solid rgb(143, 187, 229);
     background-color: rgb(143, 187, 229);
     color: #000;
+} */
+ 
+
+.header {
+  width: 100%;
+  background: linear-gradient(135deg, #4a90e2, #0078d7);
+  color: #fff;
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
+
+.header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  transition: 0.3s ease;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.header nav a:hover,
+.header nav a.active {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5px);
+}
+

@@ -3,7 +3,7 @@ import React from "react";
 export default function CompilerGeneralInput({ input, setInput, darkMode }) {
   return (
     <div id="input-area" className={darkMode ? "dark" : "light"}>
-      <label htmlFor="input-textarea">Input:</label>
+      <label htmlFor="input-textarea" style={{backgroundColor: "#2c3e50", color: "white"}}>Input:</label>
       <textarea
         id="input-textarea"
         placeholder="Enter your program input here..."
